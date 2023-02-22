@@ -5,11 +5,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .nameG{
-    height: 100vh;
+    height: 15vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/1087580.jpg);
-    background-size: cover;
-    background-position: center;
 }
 nav{
     display: flex;
@@ -54,7 +51,7 @@ nav ul li a:hover{
     border-radius: 30px;
     color: white;
     font: bold;
-    font-size: 15px;
+    font-size: 10px;
     transition: .4s;
 }
 
