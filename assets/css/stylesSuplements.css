@@ -4,12 +4,12 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-header{
-    height: 100vh;
+.header-content{
+    height: 90vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/1087580.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/back3.jpg);
     background-size: cover;
-    background-position: center;
+    
 }
 nav{
     display: flex;
@@ -61,4 +61,10 @@ nav ul li a:hover{
 #btnSession:hover{
     transform: scale(1.3);
     cursor: pointer;
+}
+
+
+.suplement{
+    background-color: aqua;
+    height: 20hv;
 }
