@@ -1,27 +1,63 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: 0;
 }
-body{
+
+body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.phrase{
-    font-size: 40px;
-    text-align: center;
-}
-.container{
-    padding: 60px 0;
+
+.phrase {
+    display: flex;
+    height: 430px;
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    background-color: aliceblue;
-}
-.about{
-    color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-#mision{
-    color: red;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.container {
+    padding: 14px 0;
+    width: 100%;
+    height: 100vh;
 }
+
+.title {
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+    height: 600px;
+}
+
+/* Header */
+
+.about {
+    width: 100%;
+    height: 600px;
+    background: #bc4e9c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.457), #bc4e4e), url(../img/background.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.457), #bc4e4e), url(../img/background.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*.content-text {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}*/
