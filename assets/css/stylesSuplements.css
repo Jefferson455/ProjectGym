@@ -63,8 +63,23 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
+.content{
+   
+    height: 500px;
+}
 
 .suplement{
-    background-color: aqua;
-    height: 20hv;
+   
+    height: 300px;
+}
+
+.suplement-text{
+
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/back6.jpg);
+    background-size: cover;
+}
+
+
+.suplement-img img {
+    width: 50%;
 }
